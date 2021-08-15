@@ -1,0 +1,674 @@
+\chapter{Discussion on final state interactions}
+\label{Sect:fsi_discuss}
+\counterwithin{equation}{chapter}
+
+\section{Probing FSI kinematically}
+One of the distinctive features of a bound nucleon experiment is the complex effects of final state interactions (FSI). This phenomenon is driven by the strong interaction and consists in the fact that after the production of the final state hadrons\footnote[1]{Here the term ``final hadrons" denotes $p'$, $\pi^{+}$, and $\pi^{-}$, which define the reaction final state.} and before their registration they manage to interact with each other and/or the recoil nucleon. These interactions include (but are not limited to) the simple momentum exchange between the hadrons as well as the process of exciting nucleon resonances with their subsequent decay that may lead to the production of new particles. 
+
+%In general, hadrons produced in any exclusive reaction experience FSI, but their intensity differ depending on the 
+
+%Final hadrons produced off the free proton are subject to the FSI as well, but these interactions are limited to the interaction of the hadrons with each other, which are not substantial.
+
+%For exclusive reactions occurring off free protons, FSI effects are limited to the interaction of the final hadrons with each other, which are not substatial compared with the  
+
+
+
+%FSI in the exclusive reactions occurring off the free proton are limited to the interaction of the final hadrons with each other, which are not substantial if compared with the case, when the final hadron 
+
+
+%Final hadrons produced off the free proton are also subject to the FSI, but in the absence of the recoil neutron these interactions are not substantial. 
+%Final hadrons produced off the free proton are subject to the FSI with each other, but in the absence of the recoil neutron these interactions are not substantial. 
+Final hadrons produced off the free proton are subject to FSI as well, but these interactions are limited to the interactions of the hadrons with each other, which are not substantial. The arguments for that are the following. The probability to interact in the final state depends on the distance between hadrons and their relative velocity, i.e. for slower and closer traveling hadrons the chance to interact is higher than for distant and rapid hadrons. Final state hadrons are produced in one vertex, which means that in the beginning, they are very close to each other and therefore have a high chance to interact. However, immediately after the production, they start to fly apart from the vertex in radial directions increasing the distance between each other, which causes the interaction probability drop\footnote[2]{The issue of final hadrons interacting with each other is addressed in Sect.~\ref{Sect:fsi_free_p} of this chapter.}.
+
+
+
+%were found  to be almost negligible. The arguments for that are the following. The closer hadrons are traveling and the slower they move relative to each other, the higher their chance to interact in the final state. Being produced in one vertex, final hadrons begin to fly apart at once immediately after the reaction occurs, thus dramatically diminishing the interaction probability. 
+
+
+Menawhile, the presence of an additional recoil nucleon changes the situation drastically. The neutron, which initially was not involved into the reaction of hadron production, is located slightly aside of the interaction vertex but at the same time very close to it, so that the flying-off final hadrons can impact the neutron. In addition to that, the neutron also moves with Fermi momentum, thus the FSI are brought to the usual hadron-hadron collisions, which may result in the resonance excitation and/or particle production. Direct hadron-hadron collisions, which are unlikely to occur in the reaction off the free proton as the final hadrons fly apart from one point, start to play a role in the reaction off the bound proton in the presence of the neutron. Therefore, FSI effects in the bound nucleon experiment are rather strong in contrast to those in the free proton one. 
+
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/fsi_mech.pdf}}
+\end{center}
+\caption{\small Illustration of the leading contributors to the process of the double-pion production off the proton bound in deuteron. (a) Quasi-free regime, (b) NN-FSI, and (c-d) $\pi N$-FSI.}
+\label{fig:fsi_mech}
+\end{figure}
+
+Figure~\ref{fig:fsi_mech} schematically sketches the leading contributors to the process of the double-pion production off the proton bound in deuterium. The process (a) corresponds to the situation when the final hadrons manage to avoid any interaction with the neutron. In this case, the neutron is treated as a spectator and the reaction is considered to occur in a so-called ``quasi-free regime". Meanwhile, the processes (b-d) illustrate the situation when one of the final hadrons was involved in the interaction with the neutron. Such interactions represent the main components of FSI for the considered exclusive channel. Therefore, hereinafter in this chapter whenever FSI is mentioned, the processes (b-d) are implied unless specified otherwise.
+
+% represent the situation when each of the final hadrons with the neutron and correspond to the main components of FSI for the considered exclusive channel. Therefore, hereinafter in this chapter whenever FSI is mentioned, the processes (b-d) are implied unless specified otherwise.
+
+
+%represent the interaction of each 
+%situation when one of the final hadrons was involved to the interaction with the neutron
+
+% represent the main components of FSI and correspond to the situation when one of the final hadrons was involved to the interaction with the neutron. Because of this, hereinafter in this chapter whenever FSI is mentioned, the processes (b-d) are implied unless specified otherwise.
+
+%to the ``quasi-free regime" that corresponds to the situation, when the final hadrons manage to avoid any interaction with the neutron and the neutron is therefore treated as a spectator. The processes (b-d) correspond to the situation when one of the final hadrons was involved with the interaction with the neutron
+
+%If the final hadrons manage to avoid any interaction with the neutron, then the neutron is treated as a spectator and the reaction is considered to occur in a so-called ``quasi-free regime". Figure~\ref{fig:fsi_mech} schematically illustrates the production of the pion pair off the bound proton in the quasi-free regime (a) as well as the leading components for FSI of the final hadrons with the neutron (b-d), which result in so-called ``FSI-disturbed kinematics". %The goal of this study is to extract the cross sections of the process (a), which implies the need to select for the analysis only events in quasi-free kinematics. This in turn means removing from consideration those events in which final hadrons have undergone FSI.
+
+The main goal of this study is to extract the double-pion cross sections in the quasi-free regime. Such an approach implies that quasi-free events that correspond to the process (a) in Fig.~\ref{fig:fsi_mech} are the only events of interest, while events with FSI are treated as undesirable background and have to be rid of. The analysis, therefore, was seeking special methods of separating these two types of events and correcting for the remaining admixture of events with FSI if the complete separation was not possible. These methods are described in detail in Sect.~\ref{Sect:excl_cut}.
+
+
+Thus, being attributed to the background and hence subjected to elimination, events with FSI were deprived of attention throughout the analysis. These events, therefore, were lacking detailed investigation, which they definitely deserve as FSI effects represent an essential issue in studies of any exclusive reaction, especially off nuclei. To regain fairness and balance into the analysis, this particular chapter is fully focused on the events with FSI and is devoted to the discussion of their peculiar features and manifestations. 
+
+%As interactions of the final hadrons with the recoil nucleon represent the dominant part of FSI in the deuteron target experiment,
+
+
+%If involved in FSI, a hadron change both the magnitude and direction of its momentum, which causes the registered values of the momentum and angles to differ from the values the hadron carried right after the production.
+
+%As a starting point of the discussion it is convenient to remind
+It is convenient to start this discussion by reminding that the amount of events produced in an exclusive reaction depends on a certain number of variables, which in the case of double-pion electroproduction is seven as described in Sect.~\ref{Sect:kin_var}. The amounts of quasi-free events and events with FSI thus depend on these variables as well because in any part of the reaction phase-space they represent the complementary portions of the total number of reaction events. Therefore, it is reasonable to consider the relative spread of events with FSI, which implies that the amount of events affected by FSI in any part of the reaction phase space is analyzed with respect to the corresponding amount of quasi-free events.
+
+%Events with FSI are not expected to be evenly distributed along the reaction phase space.
+%Events affected with FSI are not expected to form a uniform portion along the reaction phase space.
+%The probability to interact in the final state is non-uniformly distributed along the reaction phase space. 
+%Events with FSI are not expected to be evenly distributed along the reaction phase space. Instead they are anticipated to be clustered in the region of small hadron momenta as slower traveling hadrons have higher probability to interact in the final state. 
+
+%\everypar{\looseness=-1}
+Menawhile the portion of events with FSI is not expected to be the same along the reaction phase space. Instead, their relative spread is anticipated to give rise in the region of small hadron momenta as slower traveling hadrons have higher interaction probability. Meanwhile, in the acceptance of the CLAS detector the region of large polar angles corresponds mostly to low-momentum hadrons\footnote[3]{The mentioned correlation between the momentum and the polar angles of the final hadrons can be observed in the $\theta$ versus momentum distributions provided in Sect.~\ref{Sect:fiduc}. }. Therefore, the relative excess of events with FSI is also expected with the increase of the hadron polar angles. In addition to that, as various reaction topologies cover different ranges of hadron momenta and angles, the relative spread of events with FSI acquires topology dependence. 
+
+
+At this point, it is important to emphasize that interactions of final hadrons with each other and/or the recoil neutron are very complicated and involve numerous mechanisms. Their complete theoretical description requires application of the theory of the strong interactions and so far is not fully accomplished. However, all mechanisms that possibly could happen during FSI have one simple feature in common, i.e. they alter the momentum of participating hadrons. This feature may act as an FSI indicator and may be used to track manifestations of FSI effects kinematically.
+
+When considering the alterations of hadron momenta in collisions with the recoil neutrons, the following aspects should be taken into account. The neutrons move with the Fermi momentum, which for the vast majority of events is less than $\sim$250~MeV, but rarely can be higher. Meanwhile, in the analyzed experiment the hadron momentum can be as low as $\sim$100~MeV for pions and $\sim$200~MeV for protons with the upper limit of around $1.5$~GeV for all final hadrons. Therefore, being involved in collisions with neutrons, rapid final hadrons will mostly lose their momentum, while for slow hadrons the momentum gain is highly possible. For FSI without direct collisions, both gain and loss of the final hadron momenta can take place as well.
+
+% hfghgh f h gfhgf fg fgh fg fg h fhgg hgfh fgh fgfghfg hg fgfhfghgfhfgh fgfg hfg  gf hgffghf ghfgh fghgf h fg h fhfghgfh  hfg hg fh gf hgf h gf hgf h f hfg h gf hgf h fg h fgh fg h fgh fg gh
+
+%FSI-induced momentum alterations that final hadrons undergo through FSI 
+%FSI alters both the momentum magnitude and the direction of participating final hadrons, causing their registered momentum and angles to differ from the values they carried right after the production
+
+Thus, momentum alterations of the final hadrons is an inherent feature of events with FSI, which kinematically differentiate them from regular quasi-free events. The point is that for quasi-free events the registered momentum and angles of all final hadrons are the same they carried right after their production, while for events with FSI the hadron involved in FSI does not achieve this match. The consequence can be clearly seen in distributions of kinematic quantities calculated from the registered four-momenta of the final hadrons as they acquire disturbances caused by the agglomeration of events with FSI. These disturbances are better visually distinguished if the corresponding distribution of pure quasi-free events is used as a reference. 
+
+The introduced above effect was already exploited in this analysis on a level of selecting quasi-free events as described in detail in Sect.~\ref{Sect:excl_cut}. The disturbances caused by events with FSI were observed in the distributions of missing quantities $P_{X}$, $M^{2}_{X[0]}$, and $M^{2}_{X[\pi^{-}]}$, which were used for establishing the exclusivity cuts. However, the examination conducted in Sect.~\ref{Sect:excl_cut} was mostly concentrated on quasi-free events as they were the main point of interest for the analysis, while events with FSI lacked consideration. In this chapter, the distributions of missing quantities are examined once again with the attention focused on FSI induced disturbances.
+
+The two reaction topologies are again considered separately as FSI effects turn out to be topology dependent. The fully exclusive topology is addressed first as it benefits from capturing FSI for all three final hadrons including the $\pi^{-}$. 
+
+
+\section{FSI in the fully exclusive topology}
+
+
+For the fully exclusive topology, the distributions of the following quantities are investigated: the missing momentum $P_{X}$ for the reaction $ep(n)\rightarrow e'p'(n')\pi^{+}\pi^{-}X$ and the missing mass squared $M^{2}_{X[\pi^{-}]}$ for the reaction $ep(n)\rightarrow e'p'(n')\pi^{+}X$\footnote[4]{The quantity $M^{2}_{X[0]}$ is not examined here as it was shown in Ref.\cite{note_mm_distr} to be quite insensitive~to~FSI.}. These quantities are defined by\vspace{-1em}
+\begin{equation}
+\begin{aligned}
+&P_{X}&=&~|\overrightarrow{P}_{e} - \overrightarrow{P}_{e'}- \overrightarrow{P}_{p'} - \overrightarrow{P}_{\pi^{+}} - \overrightarrow{P}_{\pi^{-}}|,\\[8pt]
+&M_{X[\pi^{-}]}^{2}&=&~[P_{\pi^{-}~miss}^{\mu}]^{2}=[P_{e}^{\mu} + P_{p}^{\mu}- P_{e'}^{\mu}- P_{p'}^{\mu}-  P_{\pi^{+}}^{\mu}]^{2},\\
+\end{aligned}\label{eq:excl_top_quant2}
+\end{equation}%\vspace{-1em}
+where $P_{i}^{\mu}$ are the four-momenta and $\overrightarrow{P_{i}}$ the three-momenta of the particle $i$. All three quantities are calculated under the target-at-rest-assumption, i.e. considering $P^{\mu}_{p} = (0,~0,~0,~m_{p})$, where $m_{p}$ is the proton mass.
+
+As reference distributions of pure quasi-free events, the distributions of the same quantities plotted for the Monte Carlo simulation will be used. The Monte Carlo simulation was performed on a basis of the TWOPEG-D event generator~\cite{twopeg-d}, which nicely reproduces the Fermi smearing of missing quantities, but does not include FSI effects. The comparison of the FSI disturbed experimental distributions with these reference histograms allows to examine the features of events with FSI. 
+
+
+In the first step, the relative spread of events with FSI along the magnitude of the final hadron momenta is examined. Figures~\ref{fig:fsi_mom_dep_pim},~\ref{fig:fsi_mom_dep_pip}, and~\ref{fig:fsi_mom_dep_pr} show the distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) plotted in different ranges of $\pi^{-}$, $\pi^{+}$, and proton momentum magnitude, respectively. The relative spread of events with FSI can be visually judged by the mismatch between the experimental (black) and simulated (blue) histograms. The considered ranges of the hadron momenta are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal~to~one. 
+
+As follows from Fig.~\ref{fig:fsi_mom_dep_pim}, events with low values of the $\pi^{-}$ momentum ($\lesssim$~0.5~GeV) contain a considerable fraction of events with FSI, while events with higher $\pi^{-}$ momentum ($\gtrsim$~0.5~GeV) are mostly quasi-free. However, the relative spread of events with FSI along the $\pi^{+}$ momentum demonstrates a different tendency as shown in Fig.~\ref{fig:fsi_mom_dep_pip}, i.e. the fraction of events with FSI does not vary significantly along the $\pi^{+}$ momentum, staying sizable for all momentum values.
+
+%is sizable for all values of the $\pi^{+}$ momentum and without showing any pronounced momentum dependence
+%\newpage
+\afterpage{\clearpage}
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/mom_dep_pim.pdf}}
+\end{center}
+\caption{\small Relative spread of events with FSI among different ranges of the $\pi^{-}$ momentum magnitude is demonstrated by the mismatch between the experimental (black) and the simulated (blue) distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) defined by Eq.~\eqref{eq:excl_top_quant2}. The corresponding ranges of the $\pi^{-}$ momentum are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. The presented statistics corresponds to the experimental data.}
+\label{fig:fsi_mom_dep_pim}
+\end{figure}
+
+
+%Although the relative spread of FSI events depends differently on 
+
+
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/mom_dep_pip.pdf}}
+\end{center}
+\caption{\small Relative spread of events with FSI among different ranges of the $\pi^{+}$ momentum magnitude is demonstrated by the mismatch between the experimental (black) and the simulated (blue) distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) defined by Eq.~\eqref{eq:excl_top_quant2}. The corresponding ranges of the $\pi^{+}$ momentum are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. The presented statistics corresponds to the experimental data.}
+\label{fig:fsi_mom_dep_pip}
+\end{figure}
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/mom_dep_pr.pdf}}
+\end{center}
+\caption{\small Relative spread of events with FSI among different ranges of the proton momentum magnitude is demonstrated by the mismatch between the experimental (black) and the simulated (blue) distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) defined by Eq.~\eqref{eq:excl_top_quant2}. The corresponding ranges of the proton momentum are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. The presented statistics corresponds to the experimental data.}
+\label{fig:fsi_mom_dep_pr}
+\end{figure}
+
+Meanwhile, the relative spread of events with FSI varies dramatically along the proton momentum as illustrated by Fig.~\ref{fig:fsi_mom_dep_pr}. In the region of low proton momenta $\lesssim$~0.4~GeV all events turn out to be affected by FSI. As the proton momentum grows up to $\sim$0.5~GeV quasi-free events begin to appear in the sample, which is however still dominated by events with FSI. Then, in the region $\gtrsim$~0.5~GeV quasi-free events begin to prevail, but the fraction of events with FSI is still essential up to the values of $\gtrsim$~0.6~GeV. As the proton momentum grows further, the admixture of events with FSI mitigates and for the values $\gtrsim$~0.7~GeV mostly quasi-free events are left.
+
+
+%\afterpage{\clearpage}
+
+
+
+%\afterpage{\clearpage}
+
+
+In the next step, the relative spread of events with FSI along the polar angle of the final hadrons is examined in the same way. Figures~\ref{fig:fsi_th_dep_pim},~\ref{fig:fsi_th_dep_pip}, and~\ref{fig:fsi_th_dep_pr} show the distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) plotted in different ranges of $\pi^{-}$, $\pi^{+}$, and proton polar angle, respectively. The relative spread of events with FSI is again demonstrated by the mismatch between the experimental (black) and simulated (blue) histograms and the considered ranges of hadron polar angles are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. 
+\afterpage{\clearpage}
+%\newpage
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/th_dep_pim.pdf}}
+\end{center}
+\caption{\small Relative spread of events with FSI among different ranges of the $\pi^{-}$ polar angle is demonstrated by the mismatch between the experimental (black) and the simulated (blue) distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) defined by Eq.~\eqref{eq:excl_top_quant2}. The corresponding ranges of the $\pi^{-}$ polar angle are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. The presented statistics corresponds to the experimental data.}
+\label{fig:fsi_th_dep_pim}
+\end{figure}
+
+
+%\newpage
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/th_dep_pip.pdf}}
+\end{center}
+\caption{\small Relative spread of events with FSI among different ranges of the $\pi^{+}$ polar angle is demonstrated by the mismatch between the experimental (black) and the simulated (blue) distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) defined by Eq.~\eqref{eq:excl_top_quant2}. The corresponding ranges of the $\pi^{+}$ polar angle are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. The presented statistics corresponds to the experimental data.}
+\label{fig:fsi_th_dep_pip}
+\end{figure}
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/th_dep_pr.pdf}}
+\end{center}
+\caption{\small Relative spread of events with FSI among different ranges of the proton polar angle is demonstrated by the mismatch between the experimental (black) and the simulated (blue) distributions of the quantities $P_{X}$ (first row) and $M^{2}_{X[\pi^{-}]}$ (second row) defined by Eq.~\eqref{eq:excl_top_quant2}. The corresponding ranges of the proton polar angle are specified in the plots. Note that these ranges are not equidistant and were chosen in such a way that the relative amount of events with FSI does not change significantly within the range. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. The presented statistics corresponds to the experimental data.}
+\label{fig:fsi_th_dep_pr}
+\end{figure}
+%\newpage
+%----------------------------------------------
+
+As follows from Fig.~\ref{fig:fsi_th_dep_pim} events with low values of the $\pi^{-}$ polar angle $\lesssim$~40$^{\circ}$ are mostly quasi-free, while in the region $\gtrsim$~40$^{\circ}$ a discernible fraction of events with FSI appears. This fraction gradually grows with increasing polar angle and in the region of $120^{\circ}<\theta_{\pi^{-}}<140^{\circ}$ becomes considerable. 
+
+The relative spread of events with FSI along the $\pi^{+}$ polar angle again demonstrates different tendency as seen in Fig.~\ref{fig:fsi_th_dep_pip}. The fraction of events with FSI turns out to be discernible for all values of the $\pi^{+}$ polar angle, showing a mild growth as the angle increases up to 100$^{\circ}$. Then, in the region of $100^{\circ}<\theta_{\pi^{+}}<120^{\circ}$ the number of events with FSI rises suddenly up to a rather essential portion.
+
+
+The correlation between the fraction of events with FSI and the proton polar angle is again more dramatic. As seen in Fig.~\ref{fig:fsi_th_dep_pr}, in the region $\theta_{p}<35^{\circ}$, which contains the majority of registered protons, the portion of events with FSI is discernible but small. However, for higher polar angles a rather steep rise of this portion takes place, i.e. in the narrow slice of $35^{\circ}<\theta_{p}<40^{\circ}$ it becomes considerable and in the next $5^{\circ}$-range -- very large. Finally, for $\theta_{p}>45^{\circ}$ quasi-free events turn out to vanish and the event sample contains only events with FSI.
+% correlation between the relative spread of event with FSI and final hadron kinematics
+
+The examination performed above confirms the anticipated increase in the relative amount of events with FSI in the regions of low-momentum and large polar angles, which is observed for all final hadrons, to one extent or another. In addition to this general statement, the following more specific conclusions can be made,
+\begin{itemize}
+\item the fraction of events with FSI is strongly correlated with proton kinematics, giving steep rises for the low-momentum region as well as for the region of large polar angles,
+\item the correlation with the $\pi^{-}$ kinematics is mild with no steep alterations seen,
+\item the correlation with the $\pi^{+}$ kinematics is quite weak, with the only one exception of an essential rise for $\theta_{\pi^{+}}>100^{\circ}$,
+\item in the regions of the $\pi^{-}$ momentum $\gtrsim$~0.5~GeV and the $\pi^{-}$ polar angle $\lesssim 40^{\circ}$ the event sample is completely dominated by the quasi-free events,
+\item in the regions of the proton momentum $\lesssim$~0.4~GeV and the proton polar angle $\gtrsim 45^{\circ}$ the event sample is completely dominated by the events with FSI.
+\end{itemize}
+%, which confirms the angle-momentum correlation caused by the specificity CLAS acceptance,
+%\item the fraction of events with FSI demonstrates a strong dependence on proton kinematics, while the dependence on pion kinematics is far more mild,
+%\item the portion of events with FSI rises in the region of low-momentum hadrons (though for the $\pi^{+}$ this effect is very weak),
+%\item the portion of events with FSI increases as hadron polar angle grows 
+%with the very mild growth degree is seen for the $\pi^{-}$, while for 
+%and the mildest degree of growth observed for the $\pi^{-}$   (with the weakest correlation for the $\pi^{-}$),
+%\iten the fraction of events with FSI has a rather smooth dependence on the $\pi^{-}$ kinematics and with no abrupt rises,
+%\item the fraction of events with FSI shows almost no dependence on the $\pi^{+}$ kinematic, always staying on a small but discernible level, with the only one exception, i.e. it gives an essential rise for $\theta_{\pi^{+}}>100^{\circ}$,
+
+%Here one should note that these observations are very condition-specific.
+%if carrying the equal momenta,
+%When considering the above observations, one should keep in mind that 
+Note that the above observations are to a high degree determined by the experimental conditions, as for instance, by the presence of the hardware threshold on the minimal detectable hadron momenta, which causes the manifistations of proton FSI to differ from those of pion FSI. The point is that protons and pions that carry equal momenta differ significantly in their velocity: the former turn out to be much slower than the latter due to the difference in their mass. As a result, pions with high probability of FSI are located in the region of extremely low momenta, which lies below the registration threshold. Meanwhile, protons with high probability of FSI are located in the region of moderately low momenta, which are comparable with the threshold value. Thus, the vast majority of pions that experienced FSI failed to be registered, while for protons the situation is different as the large number of them cross the thresold and hence managed to be registered. 
+%under these experimental conditions
+
+%. The probability to interact in the final state happens to depend on 
+
+
+The following several aspects are also noteworthy in the described above examination. First, the examination was performed for the hadron momenta and polar angles defined in the laboratory system because this system is the only one that offers the sensible, unambiguous, and the most accurate determination of these quantities for events with FSI (which here are the main focus of interest). The arguments for this statement are given below.
+
+The point is that the typically performed transformation to the CMS remains sensible only for quasi-free events, while for events with FSI it is no longer relevant. This happens because once participating in FSI, events do not further keep the kinematics of the initial reaction and hence can not be treated as ``reaction events" anymore as formally speaking they were not produced off the target proton that defines the reaction CMS. Therefore, the usual CMS turns out to be a foreign system for events with FSI, and the transformation to this system would introduce the ambiguity into the examination. 
+
+%turns out to be (i) poorly resoluted and (ii) incorrect for events with FSI.
+In addition to that, the proper transformation to the reaction CMS requires the knowledge of the Fermi momentum of the initial proton for each event. The fully exclusive topology in general allows the reconstruction of this momentum as missing, which actually outputs the quantity $P_{X}$. However, being reconstructed in such a way this momentum not only suffers from poor resolution, but is also in fact incorrect for events with FSI as their initial kinematics is altered. Another option, which is performing the transformation under the target-at-rest assumption, convolutes the transformed quantities with effects of the target motion and hence lacks enough accuracy as well\footnote[5]{For the purpose of calculating quasi-free cross sections in the main analysis this option was considered adequate as it was accompanied by the corresponding correction. See Sects.~\ref{Sect:lab_cms} and~\ref{Sect:fermi_corr}.}. Therefore, being transformed to CMS, hadron momenta and angles would acquire an unnecessary systematic uncertainty, which would tangle the examination.
+
+Taking into account the above arguments, the laboratory system was considered to give the best possible opportunity for the examination of features and manifestations of FSI effects.
+
+%The next thing is that t
+The performed above examination was conducted on a qualitative level without giving any definitive quantitative conclusions on the observed percentage of events with FSI in the analyzed event sample. This examination style is determined by the fact that the interrelation between the quasi-free events and events with FSI is strongly dependent on the experimental conditions, detector acceptance/efficiency, the chosen reaction topology, the event selection employed in the analysis, etc. Therefore, any quantitative conclusion on the revealed ratio of quasi-free and FSI-affected events would have been very condition-specific and thus misleading. Meanwhile, the general tendency observed in the spreading of FSI events along the reaction phase-space is thought to be more universal and stable, and therefore gains the main focus of this kinematic examination. 
+
+\everypar{\looseness=-1}
+Meanwhile, sensible quantitative conclusions on this matter should be established on the cross section level other than on a level of event yields. An excellent opportunity to achieve this goal opens up with the completion of this analysis as now the newly extracted quasi-free cross sections can be compared with their free proton analogue from the study~\cite{Fed_an_note:2017,Fed_paper_2018}. In this way, a condition-independent impartial  estimation of the relative contribution of events with FSI to the total amount of reaction events can be obtained. This promising comparison is scheduled to follow this analysis.
+
+
+%i the comparison of the quasi-free cross sections extracted in this analysis with their free-proton analogue from the study~\cite{Fed_an_note:2017,Fed_paper_2018}. This comparison will provide an impartial estimation of relative contribution of events with FSI to the total amount of reaction events and is scheduled to follow this analysis.
+
+
+
+
+One more noteworthy aspect of the above examination consists in the fact that one should be careful when considering the amount of events that fall within a certain range of hadron momentum/angle. One should remember that quasi-free events carry the actual values of these variables, i.e. the same as they had once been produced. However, for events with FSI, the hadron momentum/angle values are those they acquire after they underwent FSI, while the actual values for them are not known. Therefore, the ``fraction of events with FSI" referred above does not reflect the fraction of reaction events that were affected by FSI within considered ranges of hadron momentum/angles. Instead, it is the fraction of events, which after FSI acquire the values that fall in a certain momentum/angle range defined for quasi-free events (or for the initially produced reaction events). 
+
+Regarding the very last issue, one should recall that during FSI both momentum loss and gain for the affected hadron are in general possible. For FSI with direct collisions, the type of the momentum alteration (gain/loss) depends on the relation between the final hadron momentum and the Fermi momentum of the recoil neutron. Here one of the fundamental differences between the two considered missing quantities becomes evident. Specifically, in the distributions of the quantity $P_{X}$, FSI-affected events with the hadron momentum gain and loss are intermixed and no visual separation between them is possible. Whereas, the distributions of the quantity $M^{2}_{X[\pi^{-}]}$ turn out to be more sophisticated in this sense and allow one to distinguish between these two situations.
+
+As was shown in Ref.~\cite{note_mm_distr}, which contains an attempt of naive modeling of kinematic effects of FSI for the case of double-pion production off protons, the distributions of the quantity $M^{2}_{X[\pi^{-}]}$ (defined in the same way as here) demonstrate different organization depending on (i) the type of the hadron affected by FSI, (ii) the degree and type (gain/loss) of the hadron momentum alteration, and (iii) the relative spread of events with different degrees of momentum alterations within the event sample\footnote[6]{Ref.~\cite{note_mm_distr} assumes only one final hadron in an event to change its momentum in FSI, which implies its interaction with the recoil nucleon or with the missing hadron in a particular~topology.}.
+
+Thus, for the case when the positive pion is affected by FSI, the distribution of $M^{2}_{X[\pi^{-}]}$ demonstrates a clear one-sided displacement from its nominal position at $m_{\pi}^{2}$, left-sided if the pion gains the momentum and right-sided if it experiences the momentum loss. The situation is however different for the case when the final proton is affected by FSI, i.e. in this case the distributions of $M^{2}_{X[\pi^{-}]}$ demonstrate more or less equal spread around $m_{\pi}^{2}$ for both momentum alteration types. For small momentum variations ($\lesssim$5\%), a weak correlation is still observed though, as the distributions contain more events at the left/right for the case of the momentum gain/loss, respectively. For larger momentum variations, the correlation fades. See more details in Ref.~\cite{note_mm_distr}.
+
+Besides this, one more conclusion of Ref.~\cite{note_mm_distr} may be of use for this study. Specifically, allowing the hadron momentum magnitude to vary from 80\% to 120\% during FSI, Ref.~\cite{note_mm_distr} assumes this degree of the momentum alteration to be spread among the events in the sample in accordance to some probability density function, symmetrical for the cases of the momentum gain and loss. The resulting distributions of $M^{2}_{X[\pi^{-}]}$ then have expectedly acquired broadening as well as tails from both sides. Meanwhile, if the positive pion is affected by FSI, the distribution of $M^{2}_{X[\pi^{-}]}$ is quite symmetrical, whereas if the proton is affected, the left-side tail of the distribution is more pronounced than the right one. This effect is most clearly seen if the uniform probability density function is considered. Thus, even for the equal percentage of events with the same degrees of the momentum gain and loss in the sample, events with the proton affected by FSI have some preference for the left-side allocation. 
+
+When applying these discoveries of Ref.~\cite{note_mm_distr} to this particular study, one should take into account the Fermi smearing of the $M^{2}_{X[\pi^{-}]}$ distributions, which was not considered in the FSI modeling in Ref.~\cite{note_mm_distr}. The Fermi smearing shuffles the events, thus blurring the patterns described above, but the general tendencies are thought to be kept. However, some features of the Fermi smearing are worth mentioning as they may interfere with the manifestation of FSI effects. One thing is that the Fermi smearing is $W$-dependent, i.e. it increases as $W$ grows from the threshold.
+
+The other thing, which is more important in the context of this study, is the following. If isolated from other effects, the Fermi smearing leads to the $W$-dependent asymmetry of the $M^{2}_{X[\pi^{-}]}$ distributions. Specifically, near the threshold more events are tossed to the left, then the asymmetry decreases with the growth of $W$, and at W$\sim$1.7-1.8~GeV the distributions regain their symmetry. This effect alters the common appearance of the $M^{2}_{X[\pi^{-}]}$ distributions, familiar from the free proton studies, with the asymmetric right-side tail caused mostly by the radiative effects (see Ref.~\cite{Fed_an_note:2017,Fed_paper_2018}). In contrast, the Fermi smeared distributions, if radiated, still keep a slight left-sided asymmetry near the threshold, which becomes smaller with growing $W$, leading to the visually symmetrical distributions at W$\sim$1.6-1.7~GeV.
+
+The addressed above effect can be seen in figures provided in Sect.~\ref{Sect:excl_cut} as well as in those given below here. The simulated distributions show the influence of the Fermi smearing on quasi-free events, while its influence on events with FSI is not known. One may however anticipate them to follow the revealed tendency, thus forming event excess at the left, which gradually vanishes as $W$ grows from the threshold.
+
+
+Taking into account all arguments from above, the following consistent pattern can be stated for the allocation of events with FSI in the distribution of $M^{2}_{X[\pi^{-}]}$. Near the threshold, the tail at the left side accumulates the vast majority of events with the pion momentum gain and more than a half of events with the proton momentum gain. It however also contains a large amount of events with the proton momentum loss and some events with the pion momentum loss. Meanwhile, the tail at the right accumulates the majority of events with the pion momentum loss and a large portion of events with the proton momentum loss, including also some events with the proton momentum gain and a negligible amount of events with the pion momentum gain. As $W$ grows from the threshold event flow from the left tail to the right side takes place, which affects mostly the events with the momentum loss for both hadron types\footnote[7]{See Figs.~(3.5) and (3.6) from Ref.~\cite{note_mm_distr} for better visualization of the described pattern.}. Therefore, hereinafter, the left-side tail is said to be attributed mostly to events with the hadron momentum gain, whereas the right-side tail -- to events with the hadron momentum loss\footnote[8]{Note that here the alteration of the momentum is used as a pure kinematic criterion, which disregards the mechanism responsible for the alteration. }.
+
+
+
+% and around a half of events with proton momentum gain with around a half event with proton momentum loss on top of that. 
+
+
+%For the tail at the right distribution side the situation is exactly the opposite as it contains almost all events with the pion momentum loss, around a half of event with the proton momentum loss with about the half of event with the proton momentum gain. In this study this pattern is certainly getting a bit blurred due to the Fermi smearing (which was not accounted for in Ref.~\cite{note_mm_distr}), but the general tendency is supposed to be kept. Therefore, hereinafter, the left-side tail is said to be attributed mostly to events with the hadron momentum gain, whereas the right-side tail -- to events with the hadron momentum loss.
+
+Considering the pattern described above, one can now examine the $M^{2}_{X[\pi^{-}]}$ distributions shown in Figs.~\ref{fig:fsi_mom_dep_pim}--\ref{fig:fsi_th_dep_pr} paying more attention to the right and left tails as they were proven to provide some information on the hadron momentum alteration~type.
+
+This examination reveals a very interesting feature, i.e. in the regions where the fraction of events with FSI gives a steep rise (such as low proton momentum and high angles of protons and $\pi^{+}$) a very prominent left-side tail is observed in the $M^{2}_{X[\pi^{-}]}$ distributions with the almost complete absence of the right-side tail. This means that in these regions a large amount of final hadrons affected by FSI gain their momentum.
+
+The above conclusion, being somewhat surprising at the first glance, is however fully justified and consistent with the following aspects, i.e. (i) hadrons with low momentum have a higher probability to interact in the final state and (ii) being low, the hadron momentum becomes comparable with the Fermi momentum of the recoil neutron, which in turn advantages the gain of the hadron momentum in the collision.
+
+At this point, it is worthwhile to mention the low beam energy of the analyzed dataset, which promotes the production of low momentum hadrons and hence advantages the occurrence of FSI. Such conditions are favorable for various FSI mechanisms to flourish, which includes the addressed above case of gaining momentum through FSI. With increasing beam energy of an experiment, this mechanism is expected to being gradually suppressed down to minor contributions, leaving FSI effects in high energy datasets to be dominated with the momentum loss. This momentum loss is then supposed to be the less pronounced (percentage-wise), the higher is the beam energy.
+
+With that said, one can highlight the second fundamental difference between the two considered missing quantities. It is remarkable that the quantity $P_{X}$, being calculated using the four-momenta of all registered final hadrons, incorporates information on FSI of each hadron type ($p$, $\pi^{+}$, and $\pi^{-}$). Whereas the quantity $M^{2}_{X[\pi^{-}]}$ absorbs only information on the proton and $\pi^{+}$ interactions as the information on the $\pi^{-}$ interactions turns out to be missing together with its four-momentum as the latter is not used in the calculation of $M^{2}_{X[\pi^{-}]}$. This point should be taken into account when investigating the distributions from Figs.~\ref{fig:fsi_mom_dep_pim}--\ref{fig:fsi_th_dep_pr}.
+
+This remarkable feature offers the opportunity of isolating FSI contributions from various pairs of final hadrons considering the missing masses related to the corresponding third hadron. This opportunity is exploited in Fig.~\ref{fig:all_mass}, which presents the distributions of the missing quantities $M^{2}_{X[\pi^{-}]}$ (first row), $M^{2}_{X[\pi^{+}]}$ (second row), and $M^{2}_{X[p']}$ (third row), with the first one defined in Eq.~\eqref{eq:excl_top_quant2} and the others defined analogously. The relative spread of events with FSI in five 100-MeV-wide bins in $W$ is again demonstrated by the mismatch between the experimental (black) and the simulated (blue) histograms. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the maxima of the main peaks are equal to one. They are however zoomed in the range [0,~0.25] on the $y$-axis to better visualize the mismatch. Note also that the distributions from the first and second rows have the same limits on the $x$-axis, while for the third row the limits are chosen so that the distribution widths and relative positions are visually similar to those of the~former.
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/all_mass.pdf}}
+\end{center}
+\caption{\small Distributions of the missing quantities $M^{2}_{X[\pi^{-}]}$ (first row), $M^{2}_{X[\pi^{+}]}$ (second row), and $M^{2}_{X[p']}$ (third row) defined in (or analogously to) Eq.~\eqref{eq:excl_top_quant2}. The relative spread of events with FSI in five 100-MeV-wide bins in $W$ is demonstrated by the mismatch between the experimental (black) and the simulated (blue) histograms. The distributions are plotted for events from the fully exclusive topology and normalized in a way that the peak maxima are equal to one. They are however zoomed in the range [0,~0.25] on the $y$-axis to better visualize the mismatch. Note also that the distributions from the first and second rows are plotted in the same limits on the $x$-axis, while for the third row the limits are chosen so that the distribution widths and relative positions are visually similar to those of the former.}
+\label{fig:all_mass}
+\end{figure}
+
+
+The distributions from Fig.~\ref{fig:all_mass} illustrate the cumulative contribution from FSI for the $\pi^{+}$ and proton (first row), $\pi^{-}$ and proton (second row), and $\pi^{+}$ and $\pi^{-}$ (third row). They share several global distinctive features. Specifically, for all distributions the left-side tail does not show any $W$-dependence staying on a constant substantial level throughout the whole $W$ range, being though a bit more prominent in the first bin. The tail at the right side, in turn, is absent for low $W$ and gradually increases as $W$ grows. This is thought to be driven by the following reasons. 
+
+
+First, the left-side tail was proven to contain a large amount of events, in which hadrons gain their momentum through FSI. This amount is, in turn, correlated with the amount of low-momentum hadrons in the event sample, which is the largest near the threshold and gradually decreases with the $W$ growth. This means that the amount of events with the hadron momentum gain in the left-side tail decreases~with~$W$. Second, the left-to-right event flow with increasing $W$ (caused by the asymmetry of the Fermi smearing) leads to the continuous reduction of the total number of events at the left with its increase at the right, which contributes to the gradual emergence of the right-side tail. At the same time, as $W$ grows, the amount of high-momentum hadrons increases with the consequent increase in the number of events with the hadron momentum loss, which dominate at the right, contribute to the left, and also prevail in the left-to-right flow. This effect strengthens the right-side tail and balances the event reduction at the left due to the first and second reasons. 
+
+The slight prominence of the left-side tail and the complete absence of the tail at the right in the first $W$ bin is then due to (i) the abundance of the low-momentum hadrons near the threshold, (ii) the deficiency of the high-momentum hadrons there, and (iii) the most prominent asymmetry of the Fermi smearing in this region.
+
+
+%This means that the portion of registered events with the hadron momentum gain, which were proven to agglomerate at the left side, is nearly the same for all $W$ with some rise near the threshold. This conclusion is justified by the fact that the portion of events, in which hadrons gain their momenta through FSI, is correlated with the amount of low-momentum hadrons in the event sample. They in turn are very abundant near the threshold and for higher $W$ still happen from time to time.
+
+%The next common feature is related to the right-side tail, which was proven to contain many events with hadron momentum loss. As seen from Fig.~\ref{fig:all_mass}, for all distributions the tail at the right side is absent for low $W$ and gradually increases as $W$ grows. This means that the amount of hadrons, which lose their momentum in FSI, is very low near the threshold and constantly grows with increasing $W$. This statement is also consistent with the fact that the amount of high-momentum hadrons (which are subject to the momentum loss the most) increases with $W$.
+
+Once the main similarities of the distributions from Fig.~\ref{fig:all_mass} are addressed, one can discuss their differences and other related features. Thus, the right-side tail, although keeping nearly the same structure for all distribution types, demonstrates different intensity manifestation, which is the smallest for $M^{2}_{X[\pi^{+}]}$ (second row), greater for $M^{2}_{X[\pi^{-}]}$ (first row), and the largest for $M^{2}_{X[p']}$ (third row). This allows the following conclusion to be made, i.e. in the considered event sample the cumulative amount of $\pi^{-}$ and protons that lose their momentum in FSI is smaller than that of $\pi^{+}$ and protons, which in turn is smaller than the corresponding amount of $\pi^{+}$ and $\pi^{-}$. Note that this conclusion is very likely to be dependent on the experimental conditions.
+
+%\everypar{\looseness=-1}
+The next feature is again related to the left-side tail, which although keeping the same $W$-dependence and intensity manifestation for all distributions, demonstrates some structural variations. Thus, for the first two rows, the left-side tail is long and its structure is flat, while for the third row the tail is shorter (relative to the main peak) and has a steep structure. This observation allows for the following interesting conclusion. 
+
+The point is that distributions from the first and second rows both include the contribution from the proton FSI, whereas the distributions from the third row do not. Therefore, for the latter, the left-side tail is dominated by events with the momentum gain for both types of pions, while for the first and second rows it also contains a large amount of events with both momentum gain and loss for protons (see the discussion above and Ref.~\cite{note_mm_distr}). This in turn indicates that both types of pions have similar manifestations of momentum alterations, which are different from those of protons with the latter showing a larger spread.  This observation is fully confirmed by Ref.~\cite{note_mm_distr} as it demonstrates that, when the same variation in the momentum magnitude for pions and protons is considered, the distortions in the $M^{2}_{X[\pi^{-}]}$ distributions caused by the proton FSI are larger (i.e. their structure is flatter and the spread along the $x$-axis is of a larger extent) than those for the case of the pion FSI. 
+
+
+The above observation is also consistent with the mentioned above feature of the proton FSI, which also follows from Ref.~\cite{note_mm_distr}, i.e. that events with the proton affected by FSI have some preference for the left-sided allocation independent of their momentum alteration type.
+
+
+
+\section{FSI in topologies with a missing hadron}
+
+% and (ii) under the considered experimental conditions protons have higher degree of the momentum alterations (both loss and gain actually) than pions, which results in a long and flat structure of the left-side tail.
+%follows from the findings revealed
+As follows from the findings revealed above, the set of missing quantities $M^{2}_{X[i]}$ (where $i$ corresponds to the missing hadron) offers great opportunities for studying kinematic manifestations of FSI effects because each $M^{2}_{X[i]}$ is capable of isolating the FSI contributions from the corresponding pair of registered hadrons. However, these opportunities are mostly limited to the fully exclusive topology, where all three available quantities $M^{2}_{X[i]}$ are auxiliary with respect to the primary quantity $M^{2}_{X[0]}$ that incorporates information of all registered final hadrons and hence is used for isolating the reaction channel. Meanwhile, for the topologies with the unregistered hadron, the corresponding quantity $M^{2}_{X[i]}$, being the only one available, has to be used for the channel identification. Under these conditions, the aforementioned ability of $M^{2}_{X[i]}$ to isolate FSI contributions from the pair of registered hadrons results in some complications, as shown below.
+
+
+
+% where a single quantity $M^{2}_{X[i]}$ is available for the channel identification, the aforementioned ability of $M^{2}_{X[i]}$ to isolate FSI contributions from the registered hadrons results in some complications, as shown below.
+
+
+
+%the quantity $M^{2}_{X[i]}$ is the only source available for developing a criterion for the channel identification. Under these conditions, the ability of $M^{2}_{X[i]}$ to isolate FSI contributions from the registered hadrons results in some complications as shown below.
+%%, being the only available missing quantity, serves the purpose of the channel identification.
+%, are not used to identify the reaction channel. For the latter purpose the quantity $M^{2}_{X[0]}$ is used instead, which incorporates information of all registered final hadrons and their FSI. 
+
+
+% turns out to be the only source available for the isolating the channel. 
+
+% because each $M^{2}_{X[i]}$ is capable of isolating the FSI contributions from the corresponding pair of registered hadrons.
+
+
+%, while in the topologies with a missing hadron the aforementioned feature of the quantities $M^{2}_{X[i]}$ causes some complications instead. This is related to the fact that in the fully exclusive topology, these quantities are auxiliary and hence are not used to identify the reaction channel. For the latter purpose the quantity $M^{2}_{X[0]}$ is used instead, which incorporates information of all registered final hadrons and their FSI. Meanwhile, for the topologies with a missing hadron the quantity $M^{2}_{X[i]}$, being the only one available missing quantity, serves the purpose of the channel identification. In this case the 
+
+% However, one should remember that for the fully exclusive topology, these quantities are auxiliary and hence are not used to identify the reaction channel. For the latter purpose the quantity $M^{2}_{X[0]}$ is used instead, which incorporates information of all registered final hadrons and their FSI. Meanwhile, for the topologies with a missing hadron the quantity $M^{2}_{X[i]}$, being the only one available missing quantity, serves the purpose of the channel identification. In this case the 
+
+
+
+%Meanwhile, as demonstrated below, the interpretation of the $M^{2}_{X[i]}$ distributions in such kind of topologies turns out to be connected with some complications if the reaction happens off bound nucleons.
+
+% This remarkable feature of the quantity $M^{2}_{X[i]}$ should not be forgotten when considering the reaction topologies with a missing final hadron as for them the distr $M^{2}_{X[i]}$ is the only source available for developing a criterion for the channel identification. 
+
+%This remarkable feature should not be forgotten when considering the reaction topologies with a missing final hadron as for them the quantity $M^{2}_{X[i]}$ is the only source available for developing a criterion for the channel identification. 
+%Meanwhile, as demonstrated below, the interpretation of the $M^{2}_{X[i]}$ distributions in such kind of topologies turns out to be connected with some complications if the reaction happens off bound nucleons.
+
+%Here several interesting aspects come into play, which are addressed below.
+
+%Meanwhile, as demonstrated below, the manifestation of this feature in such kind of topologies turns out to be a bit tricky.
+
+
+%In the double-pion production three more topologies, each with one unregistered final hadron, can be distinguished in addition to the fully exclusive one. 
+In general, when dealing with the topologies with one unregistered hadron, the four-momentum of this hadron is typically reconstructed as missing using the four-momenta of registered particles and then the exclusivity cut on the corresponding distribution of $M^{2}_{X[i]}$ is performed for isolating the channel. The success of this conventional method is based on the fact that particles produced in one reaction are not independent as they share the same reaction kinematics, which imposes some reaction-specific constraints on their four-momenta. As a result, the particle four-momenta entangle, making the information on one particle to be incorporated into the kinematics of the others. 
+
+%some complications arise
+This method, however, works smoothly only for quasi-free events, while for events with FSI it, in fact, gives an incorrect output because (as was already mentioned) once participating in FSI, hadrons do not further keep the kinematics of the initial reaction and formally can no longer be attributed to this reaction. %Here several interesting aspects come into play, which are addressed below.
+% assuming that only one of the final hadrons can be involved in FSI. For this purpose it is convenient to consider two cases.
+
+To be more specific, the following three possibilities can be distinguished for events from the topologies with an unregistered hadron (assuming that  only one final hadron in an event interacts with the neutron)\footnote[9]{This disposition is only relevant for FSI with recoil nucleons. If hadrons interact with each other in the final state, the situation is a bit different, which is addressed in Sect.~\ref{Sect:fsi_free_p}.}.
+
+%Taking into account the fact that in this study only one final hadron is assumed to interact with the neutron in the final state, the following three possibilities exist for events from the topologies with an unregistered hadron.
+
+%Let's first consider the case when the unregistered hadron was not involved in FSI. This leads to the following possibilities\footnote[3]{One should recall that FSI with recoil nucleons is considered here. If hadrons interact with each other in the final state, the situation is a bit different, which is addressed at the end of~the~chapter.}.
+
+% The other hadrons also avoided FSI. Then this event is a true quasi-free event and the four-momentum of the unregistered hadron can be successfully reconstructed as missing by means of the conventional procedure.
+\begin{itemize}
+\item[1.] All final hadrons in an event avoided FSI. Then this event is a true quasi-free event and the four-momentum of the unregistered hadron can be successfully reconstructed as missing by means of the conventional procedure.
+\item[2.] The unregistered hadron avoided FSI, while one of the registered hadrons interacted in the final state, changing in this way its four-momentum and hence losing its affiliation to the initial reaction. This does not allow the proper reconstruction of the missing hadron four-momentum, causing the event to contribute to the FSI-background in the distributions of $M^{2}_{X[i]}$.
+\item[3.] The unregistered hadron experienced FSI and the registered hadrons avoided them. In this case, the missing four-momentum of the unregistered hadron corresponds to its actual four-momentum before FSI. Such an event is then falsely treated as quasi-free.
+\end{itemize}
+% The following options can then be considered.
+%Let's now address the more intricate situation when the unregistered hadron participated in FSI. In this case the information on its interaction turns out to be lost beyond reconstruction as the other particles are not aware about this happening. The following options can then be considered.
+
+%Meanwhile, the case when the unregistered hadron experienced FSI, is 
+
+%Meanwhile, the third possibility turns out to be more complicated as it corresponds to the case when the unregistered hadron participated in FSI., which means theat the other hadrons avoided FSI. Then
+%The third possibility corresponds to the case when the unregistered hadron participated in FSI, is connected with 
+
+
+%The case when the unregistered hadron participates in FSI turns out to be more intricate. This situations resolves in only one option as in this study only one final hadron is assumed to interact with the neuteron in the final state.
+%In this case the other hadrons avoided FSI, the missing four-momentum of the unregistered hadron corresponds to its actual four-momentum before FSI. Such an event is then falsely treated as quasi-free.
+%\begin{itemize}
+%\item[3.] The unregistered hadron experienced FSI and the registered hadrons avoided them. In this case the missing four-momentum of the unregistered hadron corresponds to its actual four-momentum before FSI. Such an event is then falsely treated as quasi-free.
+%\item[4.] If one of the registered hadrons experienced FSI, then the reconstruction of the missing hadron four-momentum fails again and the event contributes to the FSI-background along with the events of the second type.
+%\end{itemize}
+
+% FSI (with the recoil nucleon) this hadron may undergo.
+%is completely lost and no possibilities for its recovering exis
+The given disposition reveals some important issues. First, the hadron four-momentum turns out to be the only one source of information on FSI (with the recoil nucleon) this hadron may undergo. If the hadron is not registered, the information on its interaction turns out to be lost beyond reconstruction as the other particles are not aware of this happening.
+
+The next important thing is that in reactions off bound nucleons the topologies with a missing hadron are revealed to suffer from miscounting of both quasi-free events and events with FSI as their separation is inaccurate. Specifically, the amount of quasi-free events is systematically overestimated because events of the third type are considered to be quasi-free, whereas they are actually events with FSI. Although the overestimation is not expected to be dramatic, this issue should be carefully considered as it may have an impact on the final results of a data analysis.
+
+With that said, one can pay closer attention to the $\pi^{-}$-missing topology of this particular analysis\footnote[10]{Note that the $\pi^{-}$-missing topology is the main analysis topology, the fully exclusive topology is a complimentary one, while the two other topologies are not used. See more details in Sect~\ref{Sect:excl_cut}.}. Figure~\ref{fig:main_top} shows the distributions of the missing quantity $M^{2}_{X[\pi^{-}]}$ plotted for this topology. The relative spread of events with FSI in five 100-MeV-wide bins in $W$ is demonstrated by the mismatch between the experimental (black) and the simulated (blue) histograms. The distributions are normalized in a way that the peak maxima are equal to one and then zoomed in the range [0,~0.25] on the $y$-axis, to better visualize the mismatch and for the consistency with the distributions~in~Fig.~\ref{fig:all_mass}.
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/main_top_mmsq.pdf}}
+\end{center}
+\caption{\small Distributions of the missing quantity $M^{2}_{X[\pi^{-}]}$ plotted for the $\pi^{-}$-missing topology. The relative spread of events with FSI in five 100-MeV-wide bins in $W$ is demonstrated by the mismatch between the experimental (black) and the simulated (blue) histograms. The distributions are normalized in a way that the peak maxima are equal to one and then zoomed in the range [0,~0.25] on the $y$-axis, to better visualize the mismatch.  }
+\label{fig:main_top}
+\end{figure}
+
+The distributions in Fig.~\ref{fig:main_top} reflect the contributions from FSI of the proton and $\pi^{+}$ and do not include the information on the $\pi^{-}$ interactions, being analogous in that sense to the distributions in the first row of Fig.~\ref{fig:all_mass} related to the fully exclusive topology. This analogy advantages their comparison.
+
+%Let's then move from the general features of the topologies with a missing hadron, which are thought to be addressed above, to mo
+
+%Once general features of the topologies with a missing hadron are addressed, let's consider 
+%Although in the double-pion production three topologies with a missing final hadron can be distinguished, only the $\pi^{-}$-missing topology is used in this study, while the two other topologies are not used as they suffer from
+%the experimental conditions of this particular analysis cause the $\pi^{-}$-missing topology to accumulate the vast majority of the reaction statistics. Meanwhile, the proton missing topology and the $\pi^{+}$-missing topology are not considered as they suffer from 
+
+
+As seen in Fig.~\ref{fig:main_top} for $W\lesssim$~1.5~GeV the vast majority of events in the $\pi^{-}$-missing topology are quasi-free as no mismatch between the experimental (black) and the simulated (blue) distributions is revealed. The explanation of this effect, which is not observed in the first row of Fig.~\ref{fig:all_mass}, lies in the kinematic differences between the two topologies.
+
+
+The point is that the $\pi^{-}$-missing topology contains mostly events with negative pions of very low-momentum as they escape through the forward acceptance hole. Meanwhile, the fully exclusive topology includes events, in which the $\pi^{-}$ momentum varies from moderately low to high as they manage to be registered. Consequently, in the fully exclusive topology, the momenta of the proton and the $\pi^{+}$ are on average lower than in the $\pi^{-}$-missing topology. However, the lower the hadron momentum is, the higher its chance to interact in the final state, which means that the two topologies have different distribution of the interaction probability among the final hadrons. Specifically, in events attributed to the $\pi^{-}$-missing topology, the $\pi^{-}$ is affected by FSI more likely than the other hadrons, whereas in the fully exclusive topology the proton and the $\pi^{+}$ are the most probable candidates to interact. This situation has the following consequences.
+
+First, if compared with the $\pi^{-}$-missing topology, the fully exclusive one contains larger number of events with alterations in the proton and $\pi^{+}$ four-momenta caused by FSI, which results in more disturbances seen in the $M^{2}_{X[\pi^{-}]}$ distributions as these four-momenta are used to calculate this missing quantity. 
+
+The other thing is related to the fact that the CLAS detector can register hadrons starting with a certain value of their momenta, which is determined by the hardware threshold. However, the low-momentum hadrons tend to gain the momentum through FSI, which means that hadrons (mostly protons) with the original momentum lower than this threshold can cross the threshold after they interact in the final state. In this case they eventually manage to be registered, although they were not supposed to, thus forming an excess of FSI-disturbed events near the reaction threshold. Meanwhile, this effect is mostly relevant to the fully exclusive topology as it contains the registered protons and $\pi^{+}$ with the lower momentum (and hence higher chance to interact) than the $\pi^{-}$ missing topology.
+%Among the two considered topologies,
+
+On top of that, for events from the $\pi^{-}$-missing topology, the chance for the $\pi^{-}$ to experience FSI is the highest among all final hadrons and is also higher than the interaction probability for the $\pi^{-}$ from the fully exclusive topology because of the described difference in the momentum. However, the quantity $M^{2}_{X[\pi^{-}]}$ does not reflect the information on the $\pi^{-}$ interactions as its four-momentum is excluded from the calculation of this quantity. This, in turn, promotes the presence of falsely defined quasi-free events in the $M^{2}_{X[\pi^{-}]}$ distributions, and their amount is correlated with the aforementioned probability of the $\pi^{-}$ interactions. This effect causes the distributions of the $\pi^{-}$-missing topology to acquire fewer distortions than their fully exclusive analogues, with the maximum difference achieved near the threshold.
+
+
+%leads to less distorted distributions in the $\pi^{-}$-missing topology than in the fully exclusive topology, with the maximum difference achieved near the threshold.
+
+%Therefore, the distortions of the $M^{2}_{X[\pi^{-}]}$ distributions in the $\pi^{-}$-missing topology are less pronounced than in the fully exclusive topology, with the maximum difference achieved near the threshold.
+%lacks the distortions which are the events of the third type from the itemize provided above
+
+%Also note that the latter issue causes the $M^{2}_{X[\pi^{-}]}$ distributions of the $\pi^{-}$-missing topology contain larger amount of falsely defined quasi-free events than the analoguos distributions from the fully exclusive topology. The largest admixture of such events is again happens near the reaction threshold.
+
+The combination of these effects explains the good match between the experimental and simulated distributions of $M^{2}_{X[\pi^{-}]}$ observed in the $\pi^{-}$-missing topology for $W\lesssim$~1.5~GeV, which is not achieved in the fully exclusive topology. Besides this, it also explains the appearance of both left and right tails in the distributions in Fig.~\ref{fig:main_top}.
+
+Thus, the left-side tail of the $M^{2}_{X[\pi^{-}]}$ distributions in the $\pi^{-}$-missing topology differs from its analogue from the fully exclusive topology both in intensity and in $W$ dependence. Specifically, being completely absent near the threshold, it shows a constant, but rather mild growth with $W$, staying on a very moderate level even in the last $W$ bin. Meanwhile, the right-side tails for both cases are very alike, though for the $\pi^{-}$-missing topology it shows more intensive growth with $W$.
+
+
+The understanding lies in the fact that the $\pi^{-}$-missing topology lacks low momentum protons and $\pi^{+}$, having instead excess of high-momentum hadrons of these types, with all the consequences addressed above. This causes the lack of events with the FSI-related momentum gain for the registered hadrons and the corresponding abundance of events with the momentum loss, which in turn results in the suppression of the left-side tail and some affluence of the tail at the right. The observed mild increase of the left-side tail with $W$ is then due to the fact that some amount of events with the hadron momentum loss still contribute to the left, causing the growth of the tail at the left to follow the growth of its neighbor at the right. This co-growth is, by the way, influenced by the left-to-right event flow caused by the $W$ dependence of the Fermi smearing, which a bit mitigates the increase of the left-side tail. 
+
+It is also important to pay closer attention to the issue with the falsely defined quasi-free events that contribute to the $M^{2}_{X[\pi^{-}]}$ distributions of the $\pi^{-}$-missing topology. As was already stated above, in this topology many unregistered $\pi^{-}$ experience FSI due to their very low momentum, leaving the registered protons and $\pi^{+}$ of the corresponding event to remain quasi-free. This effect is very pronounced near the threshold and mitigates with growing $W$ as proven by the gradually emerging disturbances in the $M^{2}_{X[\pi^{-}]}$ distributions in Fig.~\ref{fig:main_top}, which indicate more registered hadrons experiencing FSI and hence more quasi-free unregistered $\pi^{-}$. As a result, the amount of falsely defined quasi-free events is maximal near the reaction threshold and declines for higher $W$. Although such a miscounting itself is inevitable for any topology with a missing hadron in reactions off bound nucleons, the amount of the miscounted events, and its spread along $W$ is to a high degree determined by the experimental conditions.  
+%which are the events of the third type from the itemize provided above
+
+
+With this thing mentioned, one can complete this detailed examination of the missing quantities from the two reaction topologies considered in this study and move toward the next step in the investigation of the features and manifestations of events with FSI. 
+
+\section{Possibility of resonance excitations in FSI}
+
+
+So far the main attention of this investigation has concentrated on the momentum alterations that final hadrons undergo via FSI as on a universal criterion for distinguishing events with FSI from regular quasi-free events, without any particular focus on the interaction mechanism itself. Meanwhile, the strong interaction, which drives FSI, offers a very broad spectrum of these mechanisms. Although this study mostly concentrates on kinematic effects and hence does not claim any attempt of a full description of any particular mechanism, it is worthwhile to dig into one more promising direction in order to exploit all opportunities provided by this experimental data for understanding FSI.%, which this experimental data provides.
+
+Specifically, one may assume that during FSI the final hadrons can couple with the recoil neutron, thus producing nucleon resonances (or other unstable particles) in the intermediate state, which then decay with the decay products registered by the detector afterwards. In this case, very interesting things may happen, i.e. depending on the resonance decay mode, the registered hadrons may differ from those that form the resonance, both in their type and/or amount. 
+
+To dig into this issue, the advantages offered by the fully exclusive topology can again be of use. Specifically, with the four-momenta of all final hadrons available, one can reconstruct the four-momentum of the recoil neutron as missing. Although such reconstruction is inaccurate for events with FSI and also suffers from the Fermi smearing, the resulting four-momentum can still be helpful for an interesting examination to be performed. Specifically, the following set of the invariant masses can be calculated.
+\begin{equation}
+\begin{aligned}
+&M_{n'\pi^{-}}&=~& \sqrt{(P_{n'}^{\mu} + P_{\pi^{-}}^{\mu})^{2}}, & \\ \label{eq:fsi_invmasses}
+&M_{n'\pi^{+}}&=~& \sqrt{(P_{n'}^{\mu} + P_{\pi^{+}}^{\mu})^{2}}, & \text{~~~~and}\\ 
+&M_{n'p'}&=~& \sqrt{(P_{n'}^{\mu} + P_{p'}^{\mu})^{2}}, & \\ 
+\end{aligned}  
+\end{equation}  
+where $P_{n'}^{\mu}$ is the four-momentum of the recoil neutron calculated as missing under the target-at-rest assumption, while $P_{\pi^{-}}^{\mu}$, $P_{\pi^{+}}^{\mu}$, and $ P_{p'}^{\mu}$ are the four-momenta of the final hadrons registered by the detector.
+
+Figure~\ref{fig:inv_m} shows the distributions of the invariant masses $M_{n'\pi^{-}}$ (first row), $M_{n'\pi^{+}}$ (second row), and $M_{n'p'}$ (third row) from Eqs.~\eqref{eq:fsi_invmasses} plotted for the experimental data (black histograms) and regular Monte-Carlo simulation (blue histograms). The dashed green histograms are auxiliary as they correspond to the same simulation, but with the cross section weights ignored, which means that the phase-space distributions are assumed for all kinematic variables instead of regular realistic distributions~\cite{twopeg,twopeg-d}. These green histograms are intended to visualize the impact of the assumptions for the cross section shape implemented into the event generator~\cite{twopeg-d}.
+
+
+\begin{figure}[!ht]
+\begin{center}
+\framebox{\includegraphics[width=\textwidth]{pictures/fsi_discuss/inv_m.pdf}}
+\end{center}
+\caption{\small Distributions of the invariant masses $M_{n'\pi^{-}}$ (first row), $M_{n'\pi^{+}}$ (second row), and $M_{n'p'}$ (third row) from Eqs.~\eqref{eq:fsi_invmasses} plotted for the experimental data (black histograms) and regular Monte-Carlo simulation (blue histograms). The dashed green histograms are auxiliary as they correspond to the same simulation, but with the cross section weights ignored, which means that the phase-space distributions of all kinematic variables are used instead of regular realistic distributions~\cite{twopeg,twopeg-d}. The mismatch between the data and the simulation is indicative of the agglomeration of events with FSI. All histograms are normalized in a way that the peak maxima are equal to one. }
+\label{fig:inv_m}
+\end{figure}
+
+In general, invariant mass distributions are very helpful in checking for the presence of an unstable particle, whose decay causes the emission of the particles involved in the invariant mass calculation. If this is the case, then the invariant mass distributions acquire a peak at the position of the mass of this unstable particle. 
+
+Therefore, if an unstable particle was formed during FSI, then it should be seen as an agglomeration of events with FSI in the corresponding invariant mass distribution, which again can be visually spotted as a mismatch between the experiment and the simulation. Keeping that in mind, one can now examine the invariant mass distributions shown in Fig.~\ref{fig:inv_m}. Note that in Fig.~\ref{fig:inv_m} all histograms are normalized in a way that their peak maxima are equal to one. 
+
+The final proton and the recoil neutron are not expected to couple to each other with an unstable particle formation as both of them are baryons. This conclusion is confirmed by the invariant mass distributions in the third row of Fig.~\ref{fig:inv_m}, where the experimental and the simulated histograms agree with each other, both replicating the shape typical for the case of the phase-space distribution~of~all~kinematic~variables\footnote[11]{Note that resonances still may be formed in inelastic $p$-$n$ collisions, in which both nucleons~breakdown, but here this process is thought to be suppressed due to the low energy of colliding~nucleons.}. 
+
+
+%As seen from the third row of Fig.~\ref{fig:inv_m} the distributions of the invariant mass $M_{N'p'}$ demonstrate a good match between the experiment and the simulation. This indicates that the final proton and the recoil neutron do not couple to each other with an unstable particle formation, which is quite sensible as both of them are baryons.
+
+The situation is however different for the invariant masses $M_{n'\pi^{-}}$ and $M_{n'\pi^{+}}$ as the neutron can willingly couple to either $\pi^{-}$ or $\pi^{+}$ forming a nucleon resonance. The resonance mass is then determined by the cumulative energy of the coupled pair. Thus, for low $W$ the formation of the $\Delta$-resonances is only possible, while for higher $W$ other resonances with larger masses will compete for the formation. 
+
+The visual spotting of the $\Delta$-resonances in the distributions of the invariant masses is meanwhile connected with some difficulties. They originate from the fact that $\Delta$-resonances peak at 1.2-1.3~GeV and the phase-space invariant mass distribution does the same for low $W$. Therefore as long as the width of the invariant mass distribution is comparable with the width of the $\Delta$-resonance (which is around 120~MeV) there is no way to visually distinguish between resonant and non-resonant events as they form the same structure. This effect is seen in the first and second rows of Fig.~\ref{fig:inv_m}, where the experiment matches the simulation for $W\lesssim$~1.6~GeV, although the formation of $\Delta$-resonances is highly expected.
+
+For higher $W$ however the situation simplifies as the spread of the invariant mass distribution is now sufficient for observing the structures with lower width. Thus, for $W\gtrsim$1.6~GeV the observed mismatch between the data and the simulation reveals the agglomeration of events with FSI for the invariant mass values $\gtrsim$1.4~GeV, which correspond to the masses of the resonances from the second resonance region. The contribution from the $\Delta$-resonance is, however, still hard to judge due to the overall normalization of the distributions.
+
+Thus, the invariant mass distributions in Fig.~\ref{fig:inv_m} may serve as an evidence that both $\pi^{-}$ and $\pi^{+}$ experience coupling with the recoil neutron in the final state with the formation of several resonances, including those from the second resonance region. And moreover, the chance for the neutron and $\pi^{-}$ pair to originate from the decay of the resonances from the second resonance region is much higher than that for the neutron and $\pi^{+}$ pair as confirmed by the much larger mismatch observed in the $M_{n'\pi^{-}}$ distributions (first row) comparing with the $M_{n'\pi^{+}}$ distributions (second row).
+
+
+
+%The formation of the latter has a much higher chance to happen during the interaction between the $\pi^{-}$ and the neutron than between the $\pi^{+}$ and the neutron as confirmed by the much larger mismatch observed in the $M_{N'\pi^{-}}$ distributions (first row) comparing with the $M_{N'\pi^{+}}$ distributions (second row).
+
+These findings allows for several interesting processes to be traced. First, for the neutron to pion coupling with the formation of $\Delta$-resonances, the following options are available. If the neutron couples to the $\pi^{-}$, then the $\Delta^{-}$-resonance is formed, which then decays with the emission of the same hadron pair that was involved in its formation (the original momenta are however not kept). Meanwhile, if the neutron couples to the $\pi^{+}$, then the $\Delta^{+}$-resonance is formed, which has two decay options, i.e. either to the $n\pi^{+}$ or $p\pi^{0}$ final states. In the former case, the emitted hadrons are of the same type as the initial, with the different momentum though. However, in the latter case, both emitted hadrons differ from the FSI initial state.%\footnote[5]{ergertr}.% and therefore are falsely attributed to a wrong exclusive channel upon their registration.
+
+The situation complicates further if the formation of the resonances of the second resonance region is considered. In this case, the decaying resonance may emit mesons different than pions (such as $\rho$, $\sigma$, etc.) or even baryons different than nucleons (such as $\Lambda$, $\Sigma$). The latter is however not expected to happen in this experiment due to its low beam energy, which does not allow for the formation of the resonances with this decay mode as they have a large mass.
+
+Additionally, the resonances of the second resonance region can produce more than two decay products, and the decay to the $N\pi\pi$ final state is the most probable mode of this kind. In this case the resonance decay products differ from the hadrons involved in its formation not only in their type but also in amount.%, which further entangles the situation. 
+
+Besides this, one more impact of FSI on the reaction final state becomes evident, when considering the resonances of the second resonance region decaying to the $N\pi\pi$ final state. In this case several options for the types of the nucleon and the pions in the FSI final state are in general possible with the following two processes being the most remarkable, i.e. $n\pi^{-}\rightarrow R\rightarrow n\pi^{-}\pi^{0}$ and $n\pi^{+}\rightarrow R\rightarrow n\pi^{+}\pi^{0}$, where $R$ corresponds to a resonance. Although in these processes the neutron and pion maintain their types throughout the resonance formation and decay, their momenta are now affected beyond the level of individual alterations, i.e. their total momentum is not conserved as it leaks out via the $\pi^{0}$ emission.
+%Note that all these options are also relevant for interactions of final hadrons with each other,
+
+Thus one can conclude that the neutron-pion coupling with the resonance formation, which takes place during FSI, in general resolves in the following options,~i.e\footnote[12]{Note that all these options are also relevant for interactions of final hadrons with each other.}.\vspace{-0.25em}% However, events of this kind differ kinematically from analogous events with FSI with recoil neutrons.  }. 
+\begin{itemize}
+\item the types of the particles involved in FSI are kept, their momenta alter but the total momentum of the interacting pair is conserved,%\footnote[8]{Note that simple momentum exchanges in the rescattering process also result in the first option.}, 
+\item the types of the particles involved in FSI are kept, their momenta alter, but the cumulative momentum leaks via the emission of an additional particle, and 
+\item the types of the particles involved in FSI are not kept.
+\end{itemize}
+
+Manifestations of these options in analyses of experimental data off bound nucleons have some specificities, which are briefly addressed below.
+
+%These options have some specificities of their manifestations on the level of the experimental data analysis, which are briefly addressed below.
+
+Specifically, events that correspond to the first option turn out to be kinematically identical to those events, in which pions change their momenta through non-resonant rescattering off the recoil nucleon as in both cases pions experience either momentum gain or loss. Therefore, events of both kinds share the same kinematic behavior, which was discussed above.
+
+%Meanwhile, if the process with the momentum leak occurs (the second option) the corresponding $\pi^{-}$ or $\pi^{+}$, if registered, would very likely be attributed to the original channel, especially taking into account the very poor efficiency of the $\pi^{0}$ registration in CLAS.
+
+%Meanwhile, if the process with the momentum leak occurs (the second option) and corresponding $\pi^{-}$ or $\pi^{+}$ manage to be registered, then chances are high for such an event to be attributed to the original channel, especially taking into account the very poor efficiency of the $\pi^{0}$ registration in CLAS.
+
+If the process with the momentum leak occurs (the second option), then the chances are high that the corresponding $\pi^{-}$ or $\pi^{+}$, if registered, would still be attributed to the original channel during the data analysis, especially taking into account the very poor efficiency of the $\pi^{0}$ registration in CLAS. In that case, such an event can not be distinguished from FSI events with the momentum alterations that conserve the total momentum of the interacting pair, like in the process $n\pi^{-}\rightarrow \Delta^{-}\rightarrow n\pi^{-}$ or in a simple momentum exchange, which are events of the first type. This is because the neutron (which is withal not registered) is extrinsic for the original exclusive channel (which happens off protons) and hence is not included in its kinematics. Therefore, from the point of view of the original reaction, events with the momentum leak are FSI events with the pion momentum loss and hence comply with the patterns derived above for such kind of events.
+
+
+%would very likely be attributed to the original channel, especially taking into account the very poor efficiency of the $\pi^{0}$ registration in CLAS.
+
+%Meanwhile, in events with the momentum leak (the second option), the corresponding $\pi^{-}$ or $\pi^{+}$, if registered, would very likely be attributed to the original channel, especially taking into account the very poor efficiency of the $\pi^{0}$ registration in CLAS. 
+
+Meanwhile, the third scenario leads to the modification of the final state of the original reaction due to FSI, which causes the registered particles to be attributed to a wrong exclusive channel with the consequent miscounting of events selected for a particular reaction. This problem can be however resolved to a very high degree on the level of the exclusivity cut on a missing mass distribution that is typically used for the channel identification. The majority of falsely defined events will not survive the cut because these events will fail to contribute to the main distribution peak, being sorted out to the tails, as they do not keep the kinematics inherent for the channel that is subject to the selection.
+
+%These options were derived for the case of resonance formation, they are also valid for other processes. Specifically, simple momentum exchanges in the rescattering process result in the first option. Meanwhile, the interaction of t
+
+At this point, the examination being conducted seems to exploit to a very high degree the opportunities offered by this experimental data for understanding of FSI effects, which occur in the reaction of the double-pion production off protons in deuterium. Therefore, with this part complete, one can now put the focus in a slightly different direction and draw a parallel between FSI in this reaction and FSI in the analogous reaction off the free proton.
+
+\section{Drawing a parallel with a free proton experiment}
+\label{Sect:fsi_free_p}
+
+%The important thing that should be again emphasized here is that 
+The investigation of FSI effects conducted in this chapter so far was mainly related to the interactions between the final hadrons and the recoil neutron as they represent the dominant part of FSI for the deuteron target experiment. Meanwhile, the interactions of the final hadrons with each other, which are far less pronounced, also follow many of the aforementioned patterns. Some specificities though are peculiar for them, which are addressed below for the case of the reaction off the free proton, where all FSI are brought to that type. For that purpose, the fully exclusive topology and topologies with a missing hadron are again considered separately.
+
+
+First of all, there is a very essential difference between the situation when final hadrons interact with the recoil neutron and the case when they interact with each other. As the neutron is external for the kinematics of the exclusive reaction, any interaction with it breaks the energy-momentum conservation imposed on the kinematics of the final hadrons as this interaction either adds some momentum there or pulls it out. On the contrary, any interaction of final hadrons with each other (different from the emission of extra particles though) maintains the energy-momentum conservation that connects them.
+
+%Meanwhile, this difference is mostly relevant for
+The strongest manifestation of this difference takes place in the fully exclusive topology, where the quantity $M^{2}_{X[0]}$ is typically used for the channel identification. Although this quantity shows some sensitivity to FSI with the recoil neutron, as demonstrated in this study and in Ref.~\cite{note_mm_distr}, it is to a very high degree insensitive to the interactions of final hadrons with each other (unless they result in an extra particle production) due to the maintained energy-momentum conservation. The point is that in the calculation of $M^{2}_{X[0]}$ all alterations of the hadron momentum components completely compensate each other, while the compensation of the altered energy components occurs to a very high degree as in this experiment the majority of hadrons involved in FSI can be treated as non-relativistic. This conclusion is confirmed by the free-proton study in Refs.~\cite{Fed_an_note:2017,Fed_paper_2018}, where the $M^{2}_{X[0]}$ distributions do not show any discernible FSI-disturbances.
+
+However, for topologies with a missing hadron, the situation is somewhat less straightforward. Specifically, if FSI happens between the two registered hadrons, the altered components of their momenta and energy compensate each other in the calculation of $M^{2}_{X[i]}$ in the same way as described above for the quantity $M^{2}_{X[0]}$. But everything turns out to be different if the registered hadron is involved in FSI with the missing hadron. Then although the four-momenta of both interacting hadrons were altered in FSI, only the four-momentum of the registered hadron has a chance to participate in the calculation of $M^{2}_{X[i]}$. In this case, the foregoing compensation does not take place and the distribution of the calculated missing quantity inevitably acquires some distortions due to FSI. 
+
+Thus, as follows from the above, the missing quantity $M^{2}_{X[i]}$ turns out to be sensitive to both considered types of FSI, i.e. interactions with the recoil nucleon as well as interactions of final hadrons with each other. Meanwhile, the aforementioned issue with the energy-momentum conservation still makes some difference. 
+
+%Specifically, as was already addressed above, for events, in which registered hadrons interact with recoil nucleons, the 
+
+Specifically, for FSI with recoil nucleons, interactions of registered hadrons and interactions of unregistered hadrons have different impact on the $M^{2}_{X[i]}$ distributions, i.e. the former results in FSI background, while the latter results in admixture of falsely defined quasi-free events. However, for both cases, the momentum of the unregistered hadron reconstructed as missing (and hence the quantity $M^{2}_{X[i]}$) is formally incorrect as in the first case it is convoluted with the information on FSI of the registered hadrons, which is extrinsic for the missing particle, while in the second case it lacks information on FSI of the unregistered~hadron.
+
+Meanwhile, for FSI between final hadrons, interactions between the registered hadrons and interactions of the registered hadron with the unregistered one also affect the $M^{2}_{X[i]}$ distributions differently, i.e. for the former case no impact is seen, while the latter leads to distortions. However, in contrast to FSI with recoil nucleons, for both these cases the momentum of the unregistered hadron reconstructed as missing (and hence the quantity $M^{2}_{X[i]}$) is, in fact, correct as in the first case it is not affected by FSI of registered hadrons, while in the latter case it properly accounts for FSI of the unregistered hadron.
+
+This disposition, by the way, reveals some other peculiar differences between the two considered types of FSI. First, as already stated above, for the case of FSI with recoil nucleons, the hadron four-momentum turns out to be the only one source of information on these interactions, and if the hadron is not registered, this information is lost beyond recovering. However, for the case of interactions between the registered and unregistered hadrons, the four-momentum of the latter calculated as missing allows for the recovering of the information on its FSI.
+
+The next important thing is that, in reactions off the free proton, where interactions between final hadrons is the only available type of FSI, the topologies with a missing hadron do not suffer from the admixture of falsely defined quasi-free events, which takes place in reactions off bound nucleons due to FSI with the recoil nucleons.
+
+
+
+
+% the momentum of the unregistered hadron reconstructed as missing turns out to be formally incorrect because it is convoluted with the information on FSI of the registered hadrons, which is extrinsic for the missing particle. However, for events, in which registered hadrons interact with the missing hadron, the reconstructed four-momentum of the latter is in fact correct because it reflects the FSI-related alterations of its own momentum as the energy-momentum conservation among the final hadrons is kept (unless some extra particles are emitted in FSI).
+
+
+
+
+
+% because it is convoluted with the information on FSI of the registered hadrons, which is extrinsic for the missing one. However, for events, in which registered hadrons interact with the missing hadron, the reconstructed missing four-momentum is in fact correct as it reflects the FSI-related alterations of the 
+
+
+% causes the distortions in the $M^{2}_{X[i]}$ distributions to differ for the two cases. 
+
+%Although these features of FSI among the final hadron are 
+
+%Despite of their importance, t
+Meanwhile, all these features of FSI between the final hadrons are typically not taken into account in the experimental studies of exclusive reactions off the free proton, i.e. they are either ignored completely or their insignificant influence on the obtained results is claimed. Such a position is however not fully justified as these features are followed by several serious consequences.
+
+
+%Meanwhile, the most important consequence of this situation is that 
+
+%Although the revealed above effects is very important, it is
+
+
+First, any results obtained in various reaction topologies turn out to lose their full equivalence as they acquire different convolutions with different parts of FSI effects, which is commonly not subjected to any corrections. A strong dependence of FSI effects on the experimental conditions, which includes the dependence on the beam energy, aggravates the situation.
+%an additional source of smearing
+%not quite accurate estimation of the CLAS resolution offered by GSIM,
+%the GSIM inability to reproduce correctly the CLAS resolution
+
+\everypar{\looseness=-1}
+The second consequence, which is thought to be more important, is that the distributions of the quantities $M^{2}_{X[i]}$ in the topologies with a missing hadron definitely acquire a FSI-related distortion, which is typically never discussed when analyzing the free proton data. Meanwhile, this distortion seems to contribute to the well-known issue of the systematic discrepancy in width between the experimental and simulated missing mass distributions observed in all CLAS experiments. The issue is used to be attributed to the inability of GSIM to reproduce correctly the CLAS resolution and is cured by means of the GSIM Post Processor (GPP), which adds some extra smearing to the particle momenta. The parameters of this extra smearing are typically chosen individually for every analysis and their accuracy is established by checking the quality of the match between the experimental and simulated distributions of the missing quantities. These parameters, therefore, not only adjust the detector resolution given by GSIM to the experimentally observed values, but also absorb the information on the FSI-related distortion of the missing quantities for a particular exclusive channel.
+
+
+
+% Both these points hence confirm the issue to originate from FSI.
+
+
+
+
+
+%This distortion is supposed to contribute the most to the well-known issue of the GSIM inability to reproduce correctly the CLAS resolution and the consequent need for the GSIM Post Processor (GPP), which cures this issue by adding some extra smearing to the particle four-momenta. The parameters of this extra smearing are typically chosen individually in every analyzed dataset and their accuracy is established by checking the quality of the match between the experimental and simulated distributions of the missing quantities. Both these points hence confirm the issue to originate from FSI. 
+
+Thus, properly adjusted GPP parameters turn out to account for the distortions of the experimental $M^{2}_{X[i]}$ distributions due to FSI effects in free proton experiments. The study in Ref.~\cite{note_mm_distr}, which includes modeling of kinematic effects of FSI for the case of double-pion production off protons, provides a simple visualization of such distortions occurring in the $M^{2}_{X[\pi^{-}]}$ distributions for various considered alterations of the momenta of registered hadrons. This study, therefore, helps to roughly estimate the degree of the momentum alteration, which hadrons undergo during FSI in free proton experiments.
+
+
+%conclusion to be made regarding the degree of the momentum alterations, which hadrons undergo when interacting with each other as in the free proton experiments.
+
+%This study thus helps to roughly estimate the degree of the momentum alterations for the hadrons experiencing FSI in th.
+
+As confirmed by numerous studies of exclusive reactions conducted with CLAS~\cite{Markov:2014,Rip_an_note:2002,Ripani:2002ss,Fed_an_note:2007,Fedotov:2008aa,Fed_an_note:2017,Fed_paper_2018,Isupov_note,Isupov:2017lnd,Arjun,Golovach}, FSI effects in free proton experiments do not result in broad flat tails in the distributions of missing quantities $M^{2}_{X[i]}$. This means that distortions of these distributions due to FSI are mild, thus being more on a level of smearing than on a level of visually distinguished background. As then follows from Ref.~\cite{note_mm_distr}, such a smearing can originate only from the hadron momentum alterations of $\lesssim$5\% because only being that small, the alterations allow for the peak-like structure of the $M^{2}_{X[i]}$ distributions to be kept. Meanwhile, larger alterations, which would cause the formation of broad structures without distinct peaking and lead in this way to the flat background, are therefore uncommon for experiments off free protons\footnote[13]{They are however possible for experiments performed off bound nucleons.}. 
+
+Thus, one can summarize that in the presence of FSI effects in reactions off free protons, the missing quantity $M^{2}_{X[0]}$ preserves its shape, while the quantity $M^{2}_{X[i]}$ acquires a mild smearing, which is accounted for by GPP in the Monte Carlo simulation. However, despite of this difference, for any reaction topology there is no way to separate quasi-free events from events with FSI as they are thoroughly intermixed. Therefore, all results obtained in experiments off free protons are in fact convoluted with FSI effects that alter hadron momenta to a degree of $\lesssim$5\%. 
+
+By the way, the main goal of this particular study was extracting the quasi-free cross sections off protons in deuterium. However, with all the issues stated above this notation requires some clarification. The point is that this analysis employs the same GPP parameters as the study of the same reaction off the free protons performed under the same experimental conditions~\cite{Fed_an_note:2017,Fed_paper_2018}. These parameters hence provide a match between the experimental and simulated distributions of the missing quantities for the free proton reaction, thus accounting for FSI that alter hadron momenta to a degree of $\lesssim$5\%. Therefore, being used in this study, they account for FSI of the same extent, which means that the mismatch between data and simulation discussed throughout the analysis illustrates FSI of a larger extent and corresponds to interactions with the neutron. 
+
+Thus, the selection of quasi-free events performed in Sect.~\ref{Sect:excl_cut} aims at the elimination of events with FSI that alter hadron momenta beyond the level of $\sim$5\%. This, in turn, means that the finally extracted cross sections are ``quasi-free" up to the same quality as their free proton analogue, i.e. both of them are convoluted with FSI effects that alter hadron momenta to a degree of $\lesssim$5\%. This fact, meanwhile, advantages the comparison of these two cross section sets even further, as this comparison allows for isolating the effects of FSI with recoil nucleons, which are of great interest. More details on other related features of the cross sections extracted in this study are given in Sect.~\ref{Sect:concl}.
+
+With that said, one can complete this part devoted to the interactions occurring between the final hadrons as the main features of this FSI type are thought to be considered, being also compared with the relevant features of the other FSI type, which is the interactions of final hadrons with the recoil nucleon. This part therefore fully addresses the issue of FSI in free proton experiments, which are all of the former type, and also adds the finishing touch to the discussion of FSI in deuteron target experiments, where interactions between the final hadrons are small in contrast with the interactions with the recoil nucleons. 
+
+At this point, considering the objectives set to this chapter being fulfilled, one can conclude the whole discussion of FSI effects, which accompanies the main analysis.
+
+
+
+
+%  are of both types with the latter forming the dominant contribution.
+
+
+%where both FSI types are possible with the interactions with the recoil nucleon . 
+%where both FSI types are possible with the main contribution from the interactions with the recoil nucleon.% being the dominant part.
+
+
+
+% due to FSI between the registered hadrons and a missing one. This situation is then fully analogous to the case of interaction with the recoil neutron as the energy-momentum conservation turn out to be broken, i.e.   Specifically, if a registered hadron was involved in FSI with a missing hadron, then information on this 
+
+
+%Meanwhile, for the case of FSI with the recoil neutron, events with the momentum leak are very similar to events with the momentum alterations that conserve the total momentum of the interacting pair, like in the process $n\pi^{-}\rightarrow \Delta^{-}\rightarrow n\pi^{-}$ or in a simple momentum exchange. This is because the neutron is extrinsic for the original exclusive channel (which happens off protons) and hence is not included in its kinematics. Therefore, from the point of view of the original reaction events with the momentum leak are FSI events with the pion momentum loss and hence comply with the patterns derived above for such kind of events.% as the exact reasons that cause the hadron to lose momentum in FSI were not explicitly .
+
+%!!! Meanwhile, for the case when final hadrons interact with each other in the final state (which is so far was not considered here), both interacting hadrons now belong to the original reaction, which makes the two types of events to differ. Specifically, if the momentum was conserved in FSI, the
+%!!! Meanwhile, due to the momentum leak occurred during FSI, on the level of the exclusivity cut such events resemble those typically attributed in the free proton experiments to a three-pion background. This effect makes it difficult to properly distinguish between the three-pion background that accompanies the original exclusive channel and the FSI events with the momentum leak. 
+
+
+
+%Such events can in general be separated into two groups, i.e. (i) events produced near the threshold and thus containing also low-momentum proton and $\pi^{+}$ and (i) events produced far from the threshold and thus containing high-momentum proton and $\pi^{+}$. Meanwhile, the low-momentum proton and $\pi^{+}$ are very unlikely to be registered as they tend to escape through the backward acceptance hole. 
+
+
+%not true Although it is not straightly apparent due to a large difference in the statistics, the fraction of near-the-threshold events in the fully exclusive is significantly larger than in the $\pi^{-}$-missing topology. This effect is not straightly apparent as the total statistics of the former is far less than that of the latter. 
+
+
+
+%The right-side tail of the distributions in Fig.~\ref{fig:main_top} is very similar to that observed in the fully exclusive topology, both in structure and $W$-dependence, i.e. the tail is absent for low $W$ and gradually increases as $W$ grows. For the $\pi^{-}$-missing topology the tail is however, more pronounced for higher $W$. This means that the $\pi^{-}$-missing topology includes more events, in which hadrons (proton and $\pi^{+}$) lose their momentum in FSI, than the fully exclusive topology, as the right-side tail was proven to contain large amount of such events. 
+
+
+%To understand deeper the last issue, one should return to the study from Ref.~\cite{note_mm_distr}, where an attempt of naive modeling of kinematic effects of FSI for the case of double-pion production off protons was undertaken. 
+
+%----------------------------------------------------
+
+%Note: momentum and angles are in lab system. 
+%And momentum and angles for quasi-free events are actual, while for events with FSI are changed by FSI. 
+%And where FSI are significant $-->$ left missing mass tail $-->$ momentum gain.
+%It is a qualitative but not a quantitative estimation.
+
+
+%FSI$->$W-dependence+angular dependence=topology dependence
+%Consider two topologies separately
+%Fully exclusive suits best. Let's start from it
+%Missing momentum distributions allow to judge. Slices in theta angles. ...
+
+%Set of invariant masses from the fully exclusive topology. Are particles' productions possible?
+
+%Then pim miss. Interaction with missing hadron! $->$ free proton?
+
+%Free proton + less than 5\% interaction $->$ Ref to CLAS-note $->$ GPP parameters. $->$ 
+
+
+%Free proton cross sections are convoluted with less than 5\% FSI, and so do these cross sections $->$ benefit from same GPP parameters.
+
+%One reason of mismatch between actual and simulated CLAS resolution and the consequent need of GPP $->$ FSI. 
+
+
+%-----------------------------!!!!!!!!!!!!!!!!!!!!!---------------------------
+%Theta vs p $-->$ protons.
+%explanation of Gaussian shape of FSI background in the exclusivity cut.%?????
+
+

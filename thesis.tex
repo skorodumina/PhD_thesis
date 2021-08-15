@@ -1,0 +1,217 @@
+
+\documentclass[hidelinks,12pt,letterpaper]{report}
+\usepackage{setspace}
+
+\include{text/setups/setups}
+\usepackage{geometry}
+
+\usepackage{pdflscape}
+
+\usepackage{caption}
+\usepackage[english]{babel}
+\usepackage{lineno, blindtext}
+\usepackage{enumitem}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{footnote}
+\usepackage{afterpage}
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+\usepackage{footnotebackref}
+\usepackage{amsmath}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{boldline}
+\usepackage[toc,page]{appendix}
+\usepackage{sectsty}
+\usepackage{placeins}
+\usepackage{chngcntr}
+\usepackage{setspace,titlesec}
+\usepackage[all]{nowidow}
+\usepackage{chngcntr}
+%\looseness=-1
+%\clubpenalty=10000
+%\widowpenalty=10000
+
+%these two allow for dots in toc
+\usepackage{tocloft}
+\renewcommand{\cftchapdotsep}{\cftdotsep}
+
+%double spacing throughout all document
+\doublespacing
+
+%the size of the chaters' numbering and titles 
+%\chapternumberfont{\Centering \Large} 
+%\chaptertitlefont{\Centering \Large}
+
+
+%List of figures format
+\renewcommand\cftloftitlefont{\Large\bfseries\hspace*{\fill}}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}%need this in addition to the upper line to center the title
+\renewcommand\cftfigindent{0pt}  % no indentation
+%\renewcommand{\cftfigfont}{Figure }
+\renewcommand{\cftfigpresnum}{\figurename~}
+\addtolength{\cftfignumwidth}{40pt}
+%\renewcommand\cftfigpresnum{Figure}   % prefix "(" before figure number
+%\renewcommand\cftfigaftersnum{)} % affix ")" after figure number
+\setlength\cftafterloftitleskip{1pt}%space after lof title
+
+
+%List of tables format
+\renewcommand\cftlottitlefont{\Large\bfseries\hspace*{\fill}}
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}%need this in addition to the upper line to center the title
+\renewcommand\cfttabindent{0pt}  % no indentation
+\renewcommand{\cfttabpresnum}{\tablename~}
+\addtolength{\cfttabnumwidth}{40pt}
+\setlength\cftafterlottitleskip{1pt}%space after lof title
+
+
+%formats the toc title, toc entries, their fonts and positions
+\addto\captionsenglish{\renewcommand\contentsname{\tiny\vspace{\baselineskip}\footnotesize\vspace{-\baselineskip}\hfill\LARGE Table of contents\hfill}}
+\renewcommand\cftchappresnum{\chaptername~}
+\renewcommand\cftchapaftersnum{:}
+\addtolength\cftchapnumwidth{59pt}
+
+\addto\captionsenglish{\renewcommand{\cftaftertoctitle}{\hfill}}%need this in addition to the upper line to center the title
+\addto\captionsenglish{\renewcommand{\cftchapfont}{\large}}% titles in bold
+\addto\captionsenglish{\renewcommand{\cftsecfont}{\normalsize}}% titles in bold
+\renewcommand{\cftchappagefont}{\normalfont}
+\renewcommand{\cftchapleader}{\normalfont\cftdotfill{\cftsecdotsep}}
+\addtocontents{toc}{\vskip -1.2cm}%space after loc title
+
+%format titling of chapters, section etc. throught the document
+\usepackage{titlesec}
+\makeatletter
+\titleformat{\chapter}[display]{\centering\LARGE\bf}{\@chapapp\enskip\thechapter}{-5pt}{}
+\titleformat{\section}[block]{\Large\filcenter\bf}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\large\bfseries}{\thesubsection}{1em}{}
+
+\titlespacing*{\chapter}{0pt}{0.5in}{25pt}% the second {} corresponds to the top margin of Chapter #
+\titlespacing*{\bibliography}{0pt}{110.5in}{25pt}% the second {} corresponds to the top margin of Chapter #
+
+%this line adds more space before the bibliography header (adjusts the margin)
+\addto\captionsenglish{ \renewcommand{\bibname}{{\vspace{0.7\baselineskip}}  Bibliography}}
+
+
+\usepackage{xpatch}
+\newlength{\chaptertopskip}
+\setlength{\chaptertopskip}{100pt}
+
+\newcolumntype{?}{!{\vrule width 1.5pt}}
+
+
+\begin{document}
+\pagenumbering{roman} 
+
+%cases with square brackets
+ \makeatletter
+\newenvironment{sqcases}{%
+  \matrix@check\sqcases\env@sqcases
+}{%
+  \endarray\right.%
+}
+\def\env@sqcases{%
+  \let\@ifnextchar\new@ifnextchar
+  \left\lbrack
+  \def\arraystretch{1.2}%
+  \array{@{}l@{\quad}l@{}}%
+}
+\makeatother
+
+
+\include{text/aliases/aliases}
+\include{text/title_page/title_page}
+\include{text/copyright/copyright}
+\include{text/acknowledgement/acknowledgement}
+\include{text/abstract/abstract}
+
+%this is an extra spacing between entries (for lof, lot, and toc)
+\setlength{\cftparskip}{0.8125\baselineskip}%this value of parskip is more or less equivalent to double-spaced entries
+\include{text/toc/toc}
+%0.8125\baselineskip
+\singlespacing
+
+%Rename List of tables
+\renewcommand*\listtablename{\LARGE List of tables}
+%these three line are needed to add new lots line to toc
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{{\large List of tables}}{}{}
+
+%these wrapping lines are needed to exclude the old lot line from toc (as it becomes damaged after adjusting the title)
+\let\oldaddcontentsline\addcontentsline% Store \addcontentsline
+\renewcommand{\addcontentsline}[4]{}% Make \addcontentsline a no-op
+\listoftables\setcounter{page}{8}
+\let\addcontentsline\oldaddcontentsline% Restore \addcontentsline
+
+\newpage
+
+
+
+%Rename List of tables
+\renewcommand*\listfigurename{\LARGE List of figures} 
+%these three line are needed to add new lots line to toc
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{{\large List of figures}}{}{}
+%these wrapping lines are needed to exclude the old lot line from toc (as it becomes damaged after adjusting the title)
+\let\oldaddcontentsline\addcontentsline% Store \addcontentsline
+\renewcommand{\addcontentsline}[4]{}% Make \addcontentsline a no-op
+\listoffigures
+\let\addcontentsline\oldaddcontentsline% Restore \addcontentsline
+
+
+%\pdfminorversion=5 
+\pdfcompresslevel=9
+\pdfobjcompresslevel=9
+\renewcommand{\theenumi}{\Alph{enumi}}
+%\begin{linenumbers}
+
+
+%return to normal doublespacing
+\doublespacing
+
+\include{text/motivation/motivation}
+\include{text/experiment/experiment}
+\include{text/event_selection/event_selection}
+\include{text/other_cuts/other_cuts}
+\include{text/cross_section/cross_section}
+\include{text/corr_cr_sect/corr_cr_sect}
+\include{text/normalization/normalization}
+\include{text/uncert/uncert}
+\include{text/other_issues/other_issues}
+\include{text/fsi_discuss/fsi_discuss}
+%\include{text/other_issues/other_issues}
+\include{text/concl/conclusion}
+
+%\end{linenumbers}
+
+
+\pagebreak
+\newpage
+
+
+\singlespacing
+\bibliographystyle{ieeetr}
+\bibliographystyle{apsrev4-1long}
+
+%these three line are needed to add new bibliography line to toc
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{{Bibliography}}{}{}
+
+%these wrapping lines are needed to exclude the old bibliography line from toc (as it becomes damaged after adjusting the header margin)
+\let\oldaddcontentsline\addcontentsline% Store \addcontentsline
+\renewcommand{\addcontentsline}[3]{}% Make \addcontentsline a no-op
+\bibliography{thesis}
+\let\addcontentsline\oldaddcontentsline% Restore \addcontentsline
+
+
+%return to normal doublespacing for appendices
+\doublespacing
+\include{text/appendix/appendix}
+\end{document}
